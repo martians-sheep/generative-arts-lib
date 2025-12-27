@@ -53,6 +53,17 @@ import circleInversionSketch from './circleInversion';
 import hyperbolicGeometrySketch from './hyperbolicGeometry';
 import suprematismSketch from './suprematism';
 import penroseTilingSketch from './penroseTiling';
+// Algorithm-based generative art
+import waveFunctionCollapseSketch from './waveFunctionCollapse';
+import hilbertCurveSketch from './hilbertCurve';
+import chaosGameSketch from './chaosGame';
+import pixelSortingSketch from './pixelSorting';
+import ditheringSketch from './dithering';
+import spirographSketch from './spirograph';
+import mazeGenerationSketch from './mazeGeneration';
+import voronoiStipplingSketch from './voronoiStippling';
+import celticKnotsSketch from './celticKnots';
+import metaballsSketch from './metaballs';
 
 export const sketches: Record<string, Sketch> = {
   'flow-fields': flowFieldsSketch,
@@ -108,6 +119,17 @@ export const sketches: Record<string, Sketch> = {
   'hyperbolic-geometry': hyperbolicGeometrySketch,
   'suprematism': suprematismSketch,
   'penrose-tiling': penroseTilingSketch,
+  // Algorithm-based generative art
+  'wave-function-collapse': waveFunctionCollapseSketch,
+  'hilbert-curve': hilbertCurveSketch,
+  'chaos-game': chaosGameSketch,
+  'pixel-sorting': pixelSortingSketch,
+  'dithering': ditheringSketch,
+  'spirograph': spirographSketch,
+  'maze-generation': mazeGenerationSketch,
+  'voronoi-stippling': voronoiStipplingSketch,
+  'celtic-knots': celticKnotsSketch,
+  'metaballs': metaballsSketch,
 };
 
 export function getSketch(id: string): Sketch | undefined {
