@@ -31,6 +31,17 @@ import complexDomainColoringSketch from './complexDomainColoring';
 import chladniPatternsSketch from './chladniPatterns';
 import apollonianGasketSketch from './apollonianGasket';
 import marchingSquaresSketch from './marchingSquares';
+// Nature of Code inspired generative art
+import levyFlightSketch from './levyFlight';
+import gravitationalAttractorSketch from './gravitationalAttractor';
+import doublePendulumSketch from './doublePendulum';
+import particlePaintingSketch from './particlePainting';
+import autonomousAgentsSketch from './autonomousAgents';
+import flockingSketch from './flocking';
+import cellularAutomataSketch from './cellularAutomata';
+import fractalTreeSketch from './fractalTree';
+import geneticAlgorithmSketch from './geneticAlgorithm';
+import neuralCreaturesSketch from './neuralCreatures';
 
 export const sketches: Record<string, Sketch> = {
   'flow-fields': flowFieldsSketch,
@@ -64,6 +75,17 @@ export const sketches: Record<string, Sketch> = {
   'chladni-patterns': chladniPatternsSketch,
   'apollonian-gasket': apollonianGasketSketch,
   'marching-squares': marchingSquaresSketch,
+  // Nature of Code inspired generative art
+  'levy-flight': levyFlightSketch,
+  'gravitational-attractor': gravitationalAttractorSketch,
+  'double-pendulum': doublePendulumSketch,
+  'particle-painting': particlePaintingSketch,
+  'autonomous-agents': autonomousAgentsSketch,
+  'flocking': flockingSketch,
+  'cellular-automata': cellularAutomataSketch,
+  'fractal-tree': fractalTreeSketch,
+  'genetic-algorithm': geneticAlgorithmSketch,
+  'neural-creatures': neuralCreaturesSketch,
 };
 
 export function getSketch(id: string): Sketch | undefined {
