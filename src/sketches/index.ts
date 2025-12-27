@@ -42,6 +42,17 @@ import cellularAutomataSketch from './cellularAutomata';
 import fractalTreeSketch from './fractalTree';
 import geneticAlgorithmSketch from './geneticAlgorithm';
 import neuralCreaturesSketch from './neuralCreatures';
+// Geometric generative art
+import truchetTilesSketch from './truchetTiles';
+import islamicGeometrySketch from './islamicGeometry';
+import quadtreeSubdivisionSketch from './quadtreeSubdivision';
+import moirePatternsSketch from './moirePatterns';
+import lSystemSketch from './lSystem';
+import isometricProjectionSketch from './isometricProjection';
+import circleInversionSketch from './circleInversion';
+import hyperbolicGeometrySketch from './hyperbolicGeometry';
+import suprematismSketch from './suprematism';
+import penroseTilingSketch from './penroseTiling';
 
 export const sketches: Record<string, Sketch> = {
   'flow-fields': flowFieldsSketch,
@@ -86,6 +97,17 @@ export const sketches: Record<string, Sketch> = {
   'fractal-tree': fractalTreeSketch,
   'genetic-algorithm': geneticAlgorithmSketch,
   'neural-creatures': neuralCreaturesSketch,
+  // Geometric generative art
+  'truchet-tiles': truchetTilesSketch,
+  'islamic-geometry': islamicGeometrySketch,
+  'quadtree-subdivision': quadtreeSubdivisionSketch,
+  'moire-patterns': moirePatternsSketch,
+  'l-system': lSystemSketch,
+  'isometric-projection': isometricProjectionSketch,
+  'circle-inversion': circleInversionSketch,
+  'hyperbolic-geometry': hyperbolicGeometrySketch,
+  'suprematism': suprematismSketch,
+  'penrose-tiling': penroseTilingSketch,
 };
 
 export function getSketch(id: string): Sketch | undefined {
