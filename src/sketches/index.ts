@@ -20,6 +20,17 @@ import cursorTrailSketch from './cursorTrail';
 import parallaxParticlesSketch from './parallaxParticles';
 import geometricWaveSketch from './geometricWave';
 import glitchEffectSketch from './glitchEffect';
+// Mathematical generative art
+import superformulaSketch from './superformula';
+import fourierSeriesSketch from './fourierSeries';
+import phyllotaxisSketch from './phyllotaxis';
+import deJongAttractorSketch from './deJongAttractor';
+import maurerRoseSketch from './maurerRose';
+import voronoiDelaunaySketch from './voronoiDelaunay';
+import complexDomainColoringSketch from './complexDomainColoring';
+import chladniPatternsSketch from './chladniPatterns';
+import apollonianGasketSketch from './apollonianGasket';
+import marchingSquaresSketch from './marchingSquares';
 
 export const sketches: Record<string, Sketch> = {
   'flow-fields': flowFieldsSketch,
@@ -42,6 +53,17 @@ export const sketches: Record<string, Sketch> = {
   'parallax-particles': parallaxParticlesSketch,
   'geometric-wave': geometricWaveSketch,
   'glitch-effect': glitchEffectSketch,
+  // Mathematical generative art
+  'superformula': superformulaSketch,
+  'fourier-series': fourierSeriesSketch,
+  'phyllotaxis': phyllotaxisSketch,
+  'de-jong-attractor': deJongAttractorSketch,
+  'maurer-rose': maurerRoseSketch,
+  'voronoi-delaunay': voronoiDelaunaySketch,
+  'complex-domain-coloring': complexDomainColoringSketch,
+  'chladni-patterns': chladniPatternsSketch,
+  'apollonian-gasket': apollonianGasketSketch,
+  'marching-squares': marchingSquaresSketch,
 };
 
 export function getSketch(id: string): Sketch | undefined {
